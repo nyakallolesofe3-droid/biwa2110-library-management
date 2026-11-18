@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 import { NavLink, Route, Routes, useLocation, useNavigate } from 'react-router-dom';
-import { BookOpen, Boxes, ChevronDown, CircleHelp, LayoutDashboard, LogOut, Menu, Settings, Users, X } from 'lucide-react';
+import { Activity, BookOpen, Boxes, ChevronDown, CircleHelp, LayoutDashboard, LogOut, Menu, Settings, Users, X } from 'lucide-react';
 import { api, getAuthToken, setAuthToken } from './api.js';
 import Dashboard from './pages/Dashboard.jsx';
 import BooksPage from './pages/BooksPage.jsx';
